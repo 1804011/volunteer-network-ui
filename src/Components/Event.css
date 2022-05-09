@@ -1,0 +1,42 @@
+.event-container {
+	width: 570px;
+	height: 219px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 23px 24px;
+	max-width: 90vw;
+}
+
+.event-container .img-container img {
+	width: 194px;
+	height: 173px;
+	border-radius: 15px;
+}
+.event-container .detail {
+	margin-left: 23px;
+	position: relative;
+	width: 100%;
+}
+.event-container .detail h2 {
+	font-weight: 900 !important;
+	font-size: 24px;
+	color: #0b0b0b;
+	margin-bottom: 11px;
+}
+.event-container .detail h6 {
+	font-weight: 600;
+	font-size: 18px !important;
+	color: #000;
+	margin-top: 0 !important;
+}
+.event-container .detail button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 131px;
+	height: 48px;
+	background-color: #e3e3e3;
+	border-radius: 5px;
+	border: 0;
+	color: #787878 !important;
+}

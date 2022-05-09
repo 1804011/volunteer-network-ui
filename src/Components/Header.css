@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+.header-container {
+	width: 100vw;
+	padding-left: 87px;
+	padding-right: 142px;
+	height: 496px;
+	background-color: rgba(255, 255, 255, 0.9);
+	font-family: "Bebas Neue", cursive;
+	font-family: "Lato", sans-serif;
+	font-family: "Lobster", cursive;
+	font-family: "Montserrat", sans-serif;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.header-container .nav-link {
+	color: #0b0b0b;
+	font-size: 16px;
+	font-weight: 500;
+}
+.header-container .logo img {
+	width: 202px;
+	height: 60px;
+}
+.header-container .nav-btn {
+	border-radius: 6px;
+	border: 0;
+}
+.header-container .register {
+	background: #3f90fc;
+	margin-left: 36px;
+	margin-right: 12px;
+}
+.header-container .nav-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+}
+.header-container .admin {
+	background-color: #434141;
+}
+.header-container .register {
+	background-color: #3f90fc;
+}
+.header-container .banner-title {
+	color: #000000;
+	font-weight: 700;
+	font-size: 36px;
+	margin-top: 75px;
+	text-align: center;
+	margin-bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+	.header-container {
+		width: 100vw;
+		padding-left: 12px;
+		padding-right: 12px;
+		height: auto;
+		padding-bottom: 75px;
+	}
+	.header-container .container {
+		justify-content: space-between !important;
+	}
+	.header-container .navbar-nav {
+		align-items: flex-start !important;
+		padding-top: 8px;
+	}
+	.header-container .logo img {
+		width: 175px;
+		height: 60px;
+	}
+	.header-container .register {
+		background: #3f90fc;
+		margin-left: 0;
+		margin-right: 12px;
+	}
+	.header-container .banner-title {
+		font-size: 28px;
+		margin-top: 16px;
+	}
+}

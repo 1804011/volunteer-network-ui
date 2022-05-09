@@ -1,0 +1,20 @@
+.admin-content-container {
+	width: calc(100vw - 307px);
+}
+.admin-content-container h2 {
+	height: 82px;
+	display: flex;
+	align-items: center;
+	padding-left: 37px;
+	color: #0c0c0c;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+.admin-content-container .content {
+	margin: 0;
+	height: calc(100vh - 82px);
+	background-color: #f4f7fc;
+	padding-top: 49px;
+	padding-left: 29px;
+}
