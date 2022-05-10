@@ -34,7 +34,7 @@ const Header = () => {
 							<Nav.Link as={Link} to="/blog" className="text-dark nav-link">
 								Blog
 							</Nav.Link>
-							<Nav.Link as={Link} to="/login" className="text-dark nav-link">
+							<Nav.Link as={Link} to="/register" className="text-dark nav-link">
 								<Button variant="primary" className="nav-btn register">
 									Register
 								</Button>
